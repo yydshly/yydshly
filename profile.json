@@ -1,0 +1,29 @@
+{
+  "username": "yydshly",
+  "tagline": "Exploring AI. Building small worlds.",
+  "intro": "探索 AI、交互可视化与 3D 创作。把看到的有趣能力做成可运行的实验，记录原理、过程与实际效果。",
+  "fields": [
+    ["OS", "Windows"],
+    ["Editor", "Codex"],
+    ["Focus", "AI / interactive 3D / visual stories"],
+    ["Workflow", "Research -> prototype -> share"]
+  ],
+  "homepage": "https://yydshly.github.io/20261104_codex_project/",
+  "projects": [
+    {
+      "name": "项目研究总库",
+      "url": "https://github.com/yydshly/20261104_codex_project",
+      "description": "从 GitHub 与 X 上的有趣能力出发，研究、复现并整理可体验的交互演示。"
+    },
+    {
+      "name": "镜海 · Mirror Coast",
+      "url": "https://github.com/yydshly/mirror-coast-web",
+      "description": "可以探索、驾驶和保存进度的浏览器体素海滨城市。"
+    },
+    {
+      "name": "植物地球",
+      "url": "https://github.com/yydshly/plant-earth",
+      "description": "结合三维地球、地理资料与有声课程，探索植物和环境。"
+    }
+  ]
+}
