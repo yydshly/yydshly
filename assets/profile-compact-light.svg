@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="960" viewBox="0 0 360 960" role="img" aria-labelledby="title description">
-<title id="title">yydshly — terminal profile</title><desc id="description">探索 AI、交互可视化与 3D 创作。把看到的有趣能力做成可运行的实验，记录原理、过程与实际效果。 Public repositories 103, original repositories 103, stars 0, followers 1. Last synchronized 2026-11-21 05:46 UTC.</desc>
+<title id="title">yydshly — terminal profile</title><desc id="description">探索 AI、交互可视化与 3D 创作。把看到的有趣能力做成可运行的实验，记录原理、过程与实际效果。 Public repositories 103, original repositories 103, stars 0, followers 1. Last synchronized 2026-11-21 05:47 UTC.</desc>
 <rect width="360" height="960" rx="14" fill="#ffffff"/>
 <path d="M 14 0 H 346 Q 360 0 360 14 V 54 H 0 V 14 Q 0 0 14 0" fill="#f6f8fa"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="400">
@@ -57,7 +57,7 @@
 <path d="M 94 669 H 332" stroke="#d0d7de"/>
 <text x="22" y="701" fill="#953800" font-size="14" >Languages</text>
 <text x="120" y="701" fill="#0550ae" font-size="14" >JavaScript / HTML /</text>
-<text x="120" y="722" fill="#0550ae" font-size="14" >TypeScript / Python</text>
+<text x="120" y="722" fill="#0550ae" font-size="14" >Python / TypeScript</text>
 <text x="22" y="763" fill="#59636e" font-size="12" letter-spacing="1.6">PUBLIC GITHUB STATS</text>
 <path d="M 190 759 H 332" stroke="#d0d7de"/>
 <text x="22" y="791" fill="#953800" font-size="14" >Repos</text>
@@ -69,6 +69,6 @@
 <text x="22" y="866" fill="#953800" font-size="14" >Followers</text>
 <text x="120" y="866" fill="#0550ae" font-size="14" >1</text>
 <path d="M 22 915 H 338" stroke="#d0d7de"/>
-<text x="22" y="939" fill="#59636e" font-size="10.5" >synced 2026-11-21 05:46 UTC</text>
+<text x="22" y="939" fill="#59636e" font-size="10.5" >synced 2026-11-21 05:47 UTC</text>
 </g>
 </svg>
