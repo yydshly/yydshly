@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="602" viewBox="0 0 1000 602" role="img" aria-labelledby="title description">
-<title id="title">yydshly — terminal profile</title><desc id="description">探索 AI、交互可视化与 3D 创作。把看到的有趣能力做成可运行的实验，记录原理、过程与实际效果。 Public repositories 103, original repositories 103, stars 0, followers 1. Last synchronized 2026-11-21 05:47 UTC.</desc>
+<title id="title">yydshly — terminal profile</title><desc id="description">我在探索 AI 怎样帮助一个人把想法做成可运行、可观察的作品。这里记录交互网页、3D 世界、知识可视化与有声讲解的实践，也记录从 GitHub 和 X 上发现的方法。
+
+每个项目尽量保留演示、源码、资料来源和验证记录。你可以先体验效果，再看它怎样实现，以及还有哪些部分需要继续完善。 Public repositories 103, original repositories 103, stars 0, followers 1. Last synchronized 2026-11-21 05:47 UTC.</desc>
 <rect width="1000" height="602" rx="14" fill="#ffffff"/>
 <path d="M 14 0 H 986 Q 1000 0 1000 14 V 54 H 0 V 14 Q 0 0 14 0" fill="#f6f8fa"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="400">
@@ -38,7 +40,7 @@
 <text x="26" y="485.2" style="white-space:pre">         *%@@@@@@@@@@@@@@@@@@@@@@@@%%%%#      </text>
 </g>
 <text x="356" y="101" fill="#1f2328" font-size="23" >yydshly@github</text>
-<text x="356" y="127" fill="#59636e" font-size="13" >Exploring AI. Building small worlds.</text>
+<text x="356" y="127" fill="#59636e" font-size="13" >AI experiments / interactive worlds / visual notes</text>
 <text x="356" y="167" fill="#59636e" font-size="12" letter-spacing="1.6">PROFILE</text>
 <path d="M 428 163 H 972" stroke="#d0d7de"/>
 <text x="356" y="195" fill="#953800" font-size="15" >OS</text>
@@ -46,9 +48,9 @@
 <text x="356" y="220" fill="#953800" font-size="15" >Editor</text>
 <text x="482" y="220" fill="#0550ae" font-size="15" >Codex</text>
 <text x="356" y="245" fill="#953800" font-size="15" >Focus</text>
-<text x="482" y="245" fill="#0550ae" font-size="15" >AI / interactive 3D / visual stories</text>
+<text x="482" y="245" fill="#0550ae" font-size="15" >AI / interactive 3D / knowledge maps</text>
 <text x="356" y="270" fill="#953800" font-size="15" >Workflow</text>
-<text x="482" y="270" fill="#0550ae" font-size="15" >Research -&gt; prototype -&gt; share</text>
+<text x="482" y="270" fill="#0550ae" font-size="15" >Research -&gt; prototype -&gt; verify -&gt; document</text>
 <text x="356" y="295" fill="#953800" font-size="15" >Uptime</text>
 <text x="482" y="295" fill="#0550ae" font-size="15" >177 days on GitHub</text>
 <text x="356" y="336" fill="#59636e" font-size="12" letter-spacing="1.6">TOOLBOX</text>

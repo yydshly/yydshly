@@ -1,29 +1,87 @@
 {
   "username": "yydshly",
-  "tagline": "Exploring AI. Building small worlds.",
-  "intro": "探索 AI、交互可视化与 3D 创作。把看到的有趣能力做成可运行的实验，记录原理、过程与实际效果。",
+  "tagline": "AI experiments / interactive worlds / visual notes",
+  "intro": "我在探索 AI 怎样帮助一个人把想法做成可运行、可观察的作品。这里记录交互网页、3D 世界、知识可视化与有声讲解的实践，也记录从 GitHub 和 X 上发现的方法。\n\n每个项目尽量保留演示、源码、资料来源和验证记录。你可以先体验效果，再看它怎样实现，以及还有哪些部分需要继续完善。",
   "fields": [
     ["OS", "Windows"],
     ["Editor", "Codex"],
-    ["Focus", "AI / interactive 3D / visual stories"],
-    ["Workflow", "Research -> prototype -> share"]
+    ["Focus", "AI / interactive 3D / knowledge maps"],
+    ["Workflow", "Research -> prototype -> verify -> document"]
   ],
   "homepage": "https://yydshly.github.io/20261104_codex_project/",
-  "projects": [
+  "start_here": [
     {
-      "name": "项目研究总库",
-      "url": "https://github.com/yydshly/20261104_codex_project",
-      "description": "从 GitHub 与 X 上的有趣能力出发，研究、复现并整理可体验的交互演示。"
+      "intent": "想直接体验交互作品",
+      "label": "打开演示总览",
+      "url": "https://yydshly.github.io/20261104_codex_project/",
+      "description": "按主题选择一个演示，先操作，再回看原理与制作记录。"
     },
+    {
+      "intent": "想看一个能游历的 3D 世界",
+      "label": "试玩镜海",
+      "url": "https://yydshly.github.io/mirror-coast-web/",
+      "description": "从旧城出发，步行到海边，或切换载具探索海岸。"
+    },
+    {
+      "intent": "想看知识怎样被组织和讲解",
+      "label": "了解植物地球",
+      "url": "https://yydshly.github.io/plant-earth/about.html",
+      "description": "先看项目总览和使用路线，再进入地球、植物与地区课堂。"
+    }
+  ],
+  "projects": [
     {
       "name": "镜海 · Mirror Coast",
       "url": "https://github.com/yydshly/mirror-coast-web",
-      "description": "可以探索、驾驶和保存进度的浏览器体素海滨城市。"
+      "description": "一座可以步行、骑行、驾驶、飞行与海上探索的浏览器体素海滨城市。可以从旧城走到海堤，再去码头、南湾或西岬，探索记录和世界变化会保存在当前浏览器。",
+      "focus": "这个项目把角色与载具控制、场景交互、世界变化和本地存档组合进一个可游历的原型。",
+      "demo_url": "https://yydshly.github.io/mirror-coast-web/",
+      "demo_label": "在线试玩",
+      "status": "持续开发的单机原型，建议使用桌面浏览器、键盘和鼠标。"
     },
     {
       "name": "植物地球",
       "url": "https://github.com/yydshly/plant-earth",
-      "description": "结合三维地球、地理资料与有声课程，探索植物和环境。"
+      "description": "面向成年人的植物地理有声图谱。选择一个问题、植物或地区，播放讲解，对照地球、展开地图与环境资料，理解植物为什么分布在不同地方。",
+      "focus": "这个项目尝试把来源证据、空间展示、语音与字幕放在同一条学习路径里，并保留资料覆盖和缺失说明。",
+      "demo_url": "https://yydshly.github.io/plant-earth/",
+      "demo_label": "进入有声图谱",
+      "status": "已提供在线课程与资料入口，真实使用反馈和学习效果仍在继续验证。"
+    },
+    {
+      "name": "GitHub 项目研究总库",
+      "url": "https://github.com/yydshly/20261104_codex_project",
+      "description": "从 GitHub 与 X 上发现有趣的能力，研究它解决什么问题、怎样实现，以及能用到哪些具体场景。内容涵盖交互效果、3D 创作、视频讲解和知识导航。",
+      "focus": "每个条目连接原始来源、研究摘要、效果图和可用演示，记录复现中的判断、实测结果与继续扩展的方向。",
+      "demo_url": "https://yydshly.github.io/20261104_codex_project/",
+      "demo_label": "浏览研究与演示",
+      "status": "持续整理的研究档案，各条目的实现范围与验证状态见对应说明。"
     }
+  ],
+  "directions": [
+    {
+      "name": "可操作的 3D 世界与角色",
+      "description": "探索空间生成、动作状态、交互反馈和导览如何组合成可体验的场景。",
+      "example_label": "云隙行 · 3D 骑行世界",
+      "example_url": "https://yydshly.github.io/20261104_codex_project/011-yunxi-ride/"
+    },
+    {
+      "name": "知识地图与交互讲解",
+      "description": "尝试用地图、图解、来源和使用路线，帮助人进入陌生主题并继续深入。",
+      "example_label": "见全 · 跨领域认知导航",
+      "example_url": "https://yydshly.github.io/20261104_codex_project/005-jianquan-cognition/"
+    },
+    {
+      "name": "AI 辅助的视觉与视频制作",
+      "description": "研究怎样把素材、场景、动作、时间轴和讲解组织成可修改、可回看的作品。",
+      "example_label": "Tesseract 的能力与价值",
+      "example_url": "https://yydshly.github.io/20261104_codex_project/004-tesseract-capabilities/"
+    }
+  ],
+  "approach": [
+    "从一个具体问题出发，回到原仓库、官方资料或原始作品核对来源。",
+    "做可运行的原型，把视觉、操作和数据放进具体的使用场景。",
+    "记录实测结果与失败，说明模拟数据、模型近似和仍待验证的部分。",
+    "整理源码、演示、截图或成片，为后续复用和继续修改留下入口。"
   ]
 }

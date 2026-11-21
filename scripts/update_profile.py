@@ -195,6 +195,15 @@ def readme(config):
     username = config["username"]
     lines = [
         f'<!-- Generated from profile.json by scripts/update_profile.py. -->',
+        config["intro"],
+        '',
+    ]
+    if config.get("start_here"):
+        lines.extend(['## 从哪里开始', ''])
+        for route in config["start_here"]:
+            lines.append(f'- **{route["intent"]}**。[{route["label"]}]({route["url"]})，{route["description"]}')
+        lines.append('')
+    lines.extend([
         '<picture>',
         '  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-compact-dark.svg">',
         '  <source media="(max-width: 600px)" srcset="assets/profile-compact-light.svg">',
@@ -202,14 +211,39 @@ def readme(config):
         f'  <img alt="{escape(username)} 的终端风格个人主页，展示兴趣、公开仓库语言与 GitHub 统计" src="assets/profile-light.svg" width="1000">',
         '</picture>',
         '',
-        config["intro"],
+        '## 代表作品与研究',
         '',
-        f'[探索我的项目]({config["homepage"]}) · [所有公开仓库](https://github.com/{username}?tab=repositories)',
-        '',
-    ]
+    ])
     for project in config["projects"]:
-        lines.append(f'- [{project["name"]}]({project["url"]}) — {project["description"]}')
+        lines.extend([
+            f'### {project["name"]}',
+            '',
+            project["description"],
+            '',
+        ])
+        if project.get("focus"):
+            lines.extend([project["focus"], ''])
+        links = [f'[源码与说明]({project["url"]})']
+        if project.get("demo_url"):
+            links.insert(0, f'[{project.get("demo_label", "在线体验")}]({project["demo_url"]})')
+        lines.extend([' · '.join(links), ''])
+        if project.get("status"):
+            lines.extend([f'<sub>{escape(project["status"])}</sub>', ''])
+    if config.get("directions"):
+        lines.extend(['## 我在探索的方向', ''])
+        for direction in config["directions"]:
+            lines.append(
+                f'- **{direction["name"]}**。{direction["description"]} '
+                f'[{direction["example_label"]}]({direction["example_url"]})'
+            )
+        lines.append('')
+    if config.get("approach"):
+        lines.extend(['## 我怎样记录项目', ''])
+        for index, step in enumerate(config["approach"], start=1):
+            lines.append(f'{index}. {step}')
+        lines.append('')
     lines.extend([
+        f'[查看所有公开仓库](https://github.com/{username}?tab=repositories) · [回到项目总览]({config["homepage"]})',
         '',
         '<sub>统计按日更新。Repos 为公开仓库数，Originals 为其中非 fork 仓库数，Stars 为这些非 fork 仓库获得的星标。Languages 按公开非 fork 仓库的主语言出现次数排序。</sub>',
         '',

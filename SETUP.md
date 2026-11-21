@@ -13,7 +13,7 @@ GitHub 要求个人主页仓库名称与用户名相同、仓库公开且根目�
 
 ## 修改内容
 
-编辑 profile.json 中的简介、终端字段、项目列表和项目入口。当前简介根据公开仓库概括，头像使用账号的公开 GitHub 头像。Uptime 表示 GitHub 账号使用天数。
+编辑 profile.json 中的简介、终端字段、项目列表和项目入口。start_here 维护首次访问路线，projects 维护作品介绍、在线体验、研究重点与当前进度，directions 和 approach 分别维护探索方向与记录方法。当前简介根据公开仓库概括，头像使用账号的公开 GitHub 头像。Uptime 表示 GitHub 账号使用天数。
 
 图片和 README.md 由脚本生成，修改后执行以下命令重新生成。
 
